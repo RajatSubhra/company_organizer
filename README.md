@@ -2,7 +2,7 @@
 https://youtu.be/ZvxODkWCoMo
 
 # Description 
-Build a 3-level hierarchy based app to show various companies, the
+Built a 3-level hierarchy based app to show various companies, the
 products they make and an informational web page for each product. Basically, The APP starts with some default companies and products then I am performing CRUD(create, read, update, delete) operations on data in this app. 
 
 
