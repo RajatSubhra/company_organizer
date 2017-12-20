@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="io.tutorial.turntotech.infoOrganizerSample.ActivityAndFragments.WebFragment">
+
+
+    <ImageView
+        android:id="@+id/errorImageView"
+        android:layout_width="270dp"
+        android:layout_height="190dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_x="173dp"
+        android:layout_y="239dp"
+        android:gravity="center_vertical"
+        android:src="@drawable/error" />
+
+    <WebView
+        android:id="@+id/productWebView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+    </WebView>
+</RelativeLayout>
