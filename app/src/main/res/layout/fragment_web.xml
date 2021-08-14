@@ -15,7 +15,7 @@
         android:layout_x="173dp"
         android:layout_y="239dp"
         android:gravity="center_vertical"
-        android:src="@drawable/error" />
+        app:srcCompat="@drawable/error" />
 
     <WebView
         android:id="@+id/productWebView"

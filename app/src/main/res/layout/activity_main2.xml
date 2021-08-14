@@ -10,7 +10,7 @@ android:layout_height="match_parent"
 tools:context="io.tutorial.turntotech.infoOrganizerSample.ActivityAndFragments.ProductFragment">
 
 
-    <android.support.v7.widget.RecyclerView
+    <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/vertical_recycler_view"
         android:background="#fff"
         android:layout_weight="1"
